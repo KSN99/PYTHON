@@ -1,3 +1,3 @@
-a="kim"
+a="kim's \n python practical"
 
-print(type(a))
+print(a)
