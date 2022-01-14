@@ -1,4 +1,3 @@
-a=3
-b=4
+a="kim"
 
-print(a*43214)
+print(type(a))
