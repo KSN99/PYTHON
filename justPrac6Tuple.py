@@ -13,4 +13,4 @@ hobby = "coding"
 print(name, age,hobby)
 
 (name,age,hobby) = ("김종국",20,"coding")
-print(name,age,hobby)s
+print(name,age,hobby)
