@@ -10,3 +10,6 @@ if b > maximum: maximum= b
 if c > maximum: maximum= c
 
 print(f'최댓값은 {maximum}.')
+
+#순차 구조 
+# 조건식으로 평가한 결과에 따라 프로그램의 실행 흐름이 변경되는데 이러한 구조를 선택 구조 (select structure) 이라고 함. 
