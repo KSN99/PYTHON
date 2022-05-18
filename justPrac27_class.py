@@ -1,7 +1,16 @@
+from turtle import speed
+
+
 class Unit:
     def __init__(self,name, hp):
         self.name = name
         self.hp= hp
+        self.speed = speed
+    
+    def move(self, location):
+        print("지상 유닛 이동")
+        print('{0} : {1} 방향으로 이동합니다. 속도 {2}')\
+            .format(self,name, location, self.speed)
 #         self.damage = damage
 #         print("{0} Unit has been created.".format(self.name))
 #         print("체력 {0}, 공격력 {1}".format(self.hp, self.damage))
@@ -24,8 +33,8 @@ class Unit:
 #     print("{0} Clocking".format(wraith2.name))  #변수를 추가로 만들어서 외부에서 사용 가능. 
 
 class AttackUnit(Unit):
-    def __init__(self,name,hp,damage):
-        Unit.__init__(self, name, hp)
+    def __init__(self,name,hp,speed,damage):
+        Unit.__init__(self, name, hp, speed)
         self.damage= damage
 
     def attack(self, location):
@@ -56,7 +65,7 @@ class Flyable:
 
 class FlyableAttackUnit(AttackUnit, Flyable):
     def __init__(self, name, hp, damage,flying_speed):
-        AttackUnit.__init__(self,name, hp, damage)
+        AttackUnit.__init__(self,name, hp,0, damage)
         Flyable.__init__(self,flying_speed)
 
 
