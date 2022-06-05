@@ -1,4 +1,5 @@
-n = int(input())
+T = int(input())
 
-for i in range(1,10):  # 1~9
-    print(n, '*', i, '=', n*i)
+for _ in range(T):
+    A,B=map(int,input().split())
+    print(A+B)
