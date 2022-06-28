@@ -1,4 +1,8 @@
-cnt= int(input())
-N=list(map(int(input().split())))
+num_list = []
 
-print(min(N),max(N))
+for i in range(9):
+    num_list.append(int(input()))
+
+
+print(max(num_list))
+print(num_list.index(max(num_iist))+1)
