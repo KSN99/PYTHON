@@ -8,8 +8,11 @@
 # mv.price(3)
 # mv.price_morning(4) 
 
-from prac11 import*
-#from random import*
+# from prac11 import*
+# #from random import*
 
-price(3)
-price_soldier(5)
+# price(3)
+# price_soldier(5)
+
+from travel import *
+from travel import thailand                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
